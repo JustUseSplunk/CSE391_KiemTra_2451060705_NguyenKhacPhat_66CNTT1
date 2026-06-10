@@ -1,0 +1,14 @@
+body { background-color: #f4f7fe !important; }
+.header-banner {
+    background: linear-gradient(135deg, #4371e9 0%, #5684f0 100%);
+    box-shadow: 0 4px 10px rgba(67, 113, 233, 0.2);
+}
+.table > :not(caption) > * > * { border-bottom-color: #f0f0f0; }
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.status-in-stock { background-color: #e6f8ec; color: #1b8a44; }
+.status-out-of-stock { background-color: #feecec; color: #dc3545; }
